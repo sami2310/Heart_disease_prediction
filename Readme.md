@@ -51,4 +51,22 @@ Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D.
 
 # Results
 ## Without feature engineering
- - **Logistic Regression :** 83.6 %
+ | Machine Learning Algorithm  | Accuracy |
+| ------------- | ------------- |
+| k-Nearest Neighbors  | 0.819672  |
+| Support Vector Machine  | 0.836066  |
+|Linear SVM	|0.819672|
+|RBF SVM|	0.836066|
+|Gaussian Process|	0.803279|
+|Decision Tree|	0.721311|
+|Extra Trees|	0.852459|
+|Random Forest|	0.819672|
+|Extra Forest|	0.754098|
+|AdaBoost|	0.721311|
+|Gaussian Naive Bayes|	0.836066|
+|LDA|	0.836066|
+|**QDA**	|**0.868852**|
+|Logistic Regression|	0.836066|
+|SGD Classifier	|0.786885|
+|Multilayer Perceptron	|0.819672|
+|Voting Classifier|	0.836066|
