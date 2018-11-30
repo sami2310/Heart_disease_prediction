@@ -70,3 +70,24 @@ Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D.
 |SGD Classifier	|0.786885|
 |Multilayer Perceptron	|0.819672|
 |Voting Classifier|	0.836066|
+
+## After feature engineering
+ | Machine Learning Algorithm  |	New Accuracy|	Accuracy|	Increase|
+ | ------------- | ------------- | ------------- | ------------- |
+  |k-Nearest Neighbors	  |0.786885  |	0.819672  |	-  0.032787 |
+  |Support Vector Machine  |	0.803279  |	0.836066  |	-0.032787  |
+  |Linear SVM  |	0.852459  |	0.819672  |	0.032787  |
+  |RBF SVM  |	0.803279  |	0.836066  |	-0.032787  |
+  |Gaussian Process  |	0.803279  |	0.803279  |	0.000000  |
+  |Decision Tree  |	0.721311  |	0.721311  |	0.000000  |
+  |Extra Trees	  |0.754098  |	0.852459  |	-0.098361  |
+  |Random Forest  |	0.786885  |	0.819672  |	-0.032787  |
+  |Extra Forest  |	0.737705  |	0.754098  |	-0.016393  |
+  |AdaBoost  |	0.704918  |	0.721311  |	-0.016393  |
+  |Gaussian Naive Bayes  |	0.852459  |	0.836066  |	0.016393  |
+  |LDA  |	0.852459  |	0.836066  |	0.016393  |
+  |QDA  |	0.836066  |	0.868852  |	-0.032787  |
+  |Logistic Regression	  |0.836066  |	0.836066  |	0.000000  |
+  |SGD Classifier  |	0.852459  |	0.819672  |	0.032787  |
+  |Multilayer Perceptron  |	0.852459  |	0.819672  |	0.032787  |
+  |Voting Classifier  |	0.836066  |	0.819672  |	0.016393  |
